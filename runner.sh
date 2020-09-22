@@ -25,4 +25,4 @@ sudo usermod -aG docker cloud_user
 
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-mv -f zshrc .zshrc
+mv -f ./zshrc ~/.zshrc
