@@ -22,7 +22,3 @@ sudo yum-config-manager \
 sudo yum -y install docker-ce
 sudo systemctl start docker && sudo systemctl enable docker
 sudo usermod -aG docker cloud_user
-
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-cp zshrc ~/.zshrc
